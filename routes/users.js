@@ -1,10 +1,10 @@
 const express = require('express');
 
-const publicController = require('../controllers/public');
+const UsersController = require('../controllers/users');
 
 const router = express.Router();
 
 // GET /feed/posts
-//router.post('/add', publicController.addSuggestions);
+//router.post('/scramble', publicController.start);
 
 module.exports = router;
